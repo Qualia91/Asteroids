@@ -58,19 +58,19 @@ public class ApplicationModel {
                             gameModel.addAcceleration(acceleration);
                             gameModel.naturalDeccleration();
 
-                            /*if (shoot)*/ gameModel.shoot();
+                            if (shoot) gameModel.shoot();
 
                             if (rand.nextInt(1000) < 30) {
 
                                 gameModel.addAsteroid(rand.nextInt(25) + 25);
 
                             }
-                            /*if (GameObjectDatabase.getPickupList().size() < 1) {
+                            if (GameObjectDatabase.getPickupList().size() < 1) {
                                 gameModel.addPowerup();
-                            }*/
-                            /*if (GameObjectDatabase.getAsteroidList().size() < 1) {
+                            }
+                            if (GameObjectDatabase.getAsteroidList().size() < 1) {
                                 gameModel.addAsteroid1();
-                            }*/
+                            }
 
                         }
                     gameModel.updateGame(20);

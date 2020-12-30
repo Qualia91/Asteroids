@@ -50,21 +50,43 @@ public class AsteroidMain extends Application {
 
         primaryStage.getScene().setOnKeyPressed(event -> {
             switch (event.getCode()) {
-                case LEFT -> applicationModel.rotateLeft(true);
-                case RIGHT -> applicationModel.rotateRight(true);
-                case SPACE -> applicationModel.shoot(true);
-                case Z -> applicationModel.accelerate(true);
-                case X -> applicationModel.decelerate(true);
+                case LEFT :
+                    applicationModel.rotateLeft(true);
+                    break;
+                case RIGHT :
+                    applicationModel.rotateRight(true);
+                    break;
+                case SPACE :
+                    applicationModel.shoot(true);
+                    break;
+                case Z :
+                    applicationModel.accelerate(true);
+                    break;
+                case X :
+                    applicationModel.decelerate(true);
+                    break;
             }
         });
         primaryStage.getScene().setOnKeyReleased(event -> {
             switch (event.getCode()) {
-                case LEFT -> applicationModel.rotateLeft(false);
-                case RIGHT -> applicationModel.rotateRight(false);
-                case SPACE -> applicationModel.shoot(false);
-                case Z -> applicationModel.accelerate(false);
-                case X -> applicationModel.decelerate(false);
-                case R -> applicationModel.restart();
+                case LEFT :
+                    applicationModel.rotateLeft(false);
+                    break;
+                case RIGHT :
+                    applicationModel.rotateRight(false);
+                    break;
+                case SPACE :
+                    applicationModel.shoot(false);
+                    break;
+                case Z :
+                    applicationModel.accelerate(false);
+                    break;
+                case X :
+                    applicationModel.decelerate(false);
+                    break;
+                case R :
+                    applicationModel.restart();
+                    break;
             }
         });
     }
