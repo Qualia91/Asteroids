@@ -1,6 +1,6 @@
-package com.nick.wood.asteroids.models.sprites;
+package com.boc_dev.asteroids.models.sprites;
 
-import com.nick.wood.asteroids.utils.DynamicState;
+import com.boc_dev.asteroids.utils.DynamicState;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Polygon;
 

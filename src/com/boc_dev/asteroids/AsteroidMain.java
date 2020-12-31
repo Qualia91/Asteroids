@@ -1,7 +1,7 @@
-package com.nick.wood.asteroids;
+package com.boc_dev.asteroids;
 
-import com.nick.wood.asteroids.controllers.MainWindowController;
-import com.nick.wood.asteroids.models.ApplicationModel;
+import com.boc_dev.asteroids.controllers.MainWindowController;
+import com.boc_dev.asteroids.models.ApplicationModel;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;

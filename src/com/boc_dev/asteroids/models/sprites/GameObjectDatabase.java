@@ -1,4 +1,4 @@
-package com.nick.wood.asteroids.models.sprites;
+package com.boc_dev.asteroids.models.sprites;
 
 import java.util.ArrayList;
 import java.util.List;

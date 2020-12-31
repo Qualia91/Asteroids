@@ -1,9 +1,9 @@
-package com.nick.wood.asteroids.models;
+package com.boc_dev.asteroids.models;
 
-import com.nick.wood.asteroids.models.sprites.GameObject;
-import com.nick.wood.asteroids.models.sprites.GameObjectDatabase;
-import com.nick.wood.asteroids.utils.DynamicState;
-import com.nick.wood.asteroids.utils.Vector2D;
+import com.boc_dev.asteroids.models.sprites.GameObjectDatabase;
+import com.boc_dev.asteroids.utils.Vector2D;
+import com.boc_dev.asteroids.models.sprites.GameObject;
+import com.boc_dev.asteroids.utils.DynamicState;
 import javafx.scene.Node;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
@@ -88,7 +88,7 @@ public class DrawingModel {
 
     private Node getBackground() {
         Pane pane = new Pane();
-        Image image = new Image("File:src/com/nick/wood/asteroids/assets/background.jpg");
+        Image image = new Image("File:src/com/boc_dev/asteroids/assets/background.jpg");
         ImageView imageView = new ImageView(image);
         imageView.fitWidthProperty().setValue(applicationModel.getScreenMiddleX()*4);
         imageView.fitHeightProperty().setValue(applicationModel.getScreenMiddleY()*4);

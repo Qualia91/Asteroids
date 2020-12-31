@@ -1,6 +1,6 @@
-package com.nick.wood.asteroids.controllers;
+package com.boc_dev.asteroids.controllers;
 
-import com.nick.wood.asteroids.models.ApplicationModel;
+import com.boc_dev.asteroids.models.ApplicationModel;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.layout.AnchorPane;

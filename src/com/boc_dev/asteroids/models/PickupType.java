@@ -1,4 +1,4 @@
-package com.nick.wood.asteroids.models;
+package com.boc_dev.asteroids.models;
 
 import javafx.scene.paint.Color;
 

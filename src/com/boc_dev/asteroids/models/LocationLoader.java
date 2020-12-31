@@ -1,10 +1,10 @@
-package com.nick.wood.asteroids.models;
+package com.boc_dev.asteroids.models;
 
-import com.nick.wood.asteroids.models.sprites.GameObjectDatabase;
-import com.nick.wood.asteroids.models.sprites.SpaceShipSprite;
-import com.nick.wood.asteroids.utils.DynamicState;
-import com.nick.wood.asteroids.utils.Utilities;
-import com.nick.wood.asteroids.utils.Vector2D;
+import com.boc_dev.asteroids.models.sprites.GameObjectDatabase;
+import com.boc_dev.asteroids.models.sprites.SpaceShipSprite;
+import com.boc_dev.asteroids.utils.Utilities;
+import com.boc_dev.asteroids.utils.Vector2D;
+import com.boc_dev.asteroids.utils.DynamicState;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 

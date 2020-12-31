@@ -1,6 +1,4 @@
-package com.nick.wood.asteroids.utils;
-
-import javafx.beans.property.SimpleDoubleProperty;
+package com.boc_dev.asteroids.utils;
 
 public class Utilities {
 

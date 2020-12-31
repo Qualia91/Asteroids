@@ -1,4 +1,4 @@
-package com.nick.wood.asteroids.utils;
+package com.boc_dev.asteroids.utils;
 
 public class DynamicState {
     private Vector2D position;

@@ -1,9 +1,9 @@
-package com.nick.wood.asteroids.models;
+package com.boc_dev.asteroids.models;
 
-import com.nick.wood.asteroids.models.sprites.*;
-import com.nick.wood.asteroids.utils.DynamicState;
-import com.nick.wood.asteroids.utils.Utilities;
-import com.nick.wood.asteroids.utils.Vector2D;
+import com.boc_dev.asteroids.models.sprites.*;
+import com.boc_dev.asteroids.utils.DynamicState;
+import com.boc_dev.asteroids.utils.Utilities;
+import com.boc_dev.asteroids.utils.Vector2D;
 import javafx.beans.property.SimpleBooleanProperty;
 
 import java.util.*;

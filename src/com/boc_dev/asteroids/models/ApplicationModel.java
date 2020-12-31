@@ -1,6 +1,6 @@
-package com.nick.wood.asteroids.models;
+package com.boc_dev.asteroids.models;
 
-import com.nick.wood.asteroids.models.sprites.GameObjectDatabase;
+import com.boc_dev.asteroids.models.sprites.GameObjectDatabase;
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
 import javafx.beans.property.SimpleDoubleProperty;

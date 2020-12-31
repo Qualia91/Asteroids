@@ -1,7 +1,7 @@
-package com.nick.wood.asteroids.models.sprites;
+package com.boc_dev.asteroids.models.sprites;
 
-import com.nick.wood.asteroids.models.PickupType;
-import com.nick.wood.asteroids.utils.DynamicState;
+import com.boc_dev.asteroids.models.PickupType;
+import com.boc_dev.asteroids.utils.DynamicState;
 import javafx.scene.Node;
 import javafx.scene.layout.StackPane;
 import javafx.scene.shape.Circle;
